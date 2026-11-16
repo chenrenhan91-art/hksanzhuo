@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-const A='/assets/';
+const A=import.meta.env.BASE_URL+'assets/';
 const items=[
  ['LC3 Armchair Replica by Le Corbusier',1795,'e17920c5e8e781f3-lc3-armchair-1-620x698.jpg','Living Room'],
  ['Superloon Floor Lamp – 24 inch',775,'0581cdba6919de13-superloon-floor-lamp-24-inch-60-cm-1-620x698.jpg','Lighting'],
